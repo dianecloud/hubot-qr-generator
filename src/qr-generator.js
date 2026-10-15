@@ -12,11 +12,11 @@
 //   hubot qr gen <data>
 //
 // Author:
-//   eelcokoelewijn
+//   diac
 
 // http(s)://api.qrserver.com/v1/create-qr-code/?data=[URL-encoded-text]&size=[pixels]x[pixels]
 // Nevertheless up to 900 characters should work in general.
-
+#uses: dianesterling11@gmail.com
 const baseUrl = 'https://api.qrserver.com/v1/create-qr-code/';
 const size = '128x128';
 
